@@ -30,5 +30,5 @@ y_intercept = y_midpoint_coordinates - slope * x_midpoint_coordinates
 y_intercept_perpendicular_bisector = -bisector_perpendicular_slope*x_midpoint_coordinates+y_midpoint_coordinates
 
 
-print("The bisector segment coordinates => ({}, {}) and ({}, {})".format(x1, y1, x2, y2))
-print("The perpendicular bisector equation => y = {}x + {}".format(bisector_perpendicular_slope, (-bisector_perpendicular_slope*x_midpoint_coordinates+y_midpoint_coordinates)))
+print("The coordinates : ({}, {}) and ({}, {})".format(x1, y1, x2, y2))
+print("The perpendicular bisector function : y = {}x + {}".format(bisector_perpendicular_slope, (-bisector_perpendicular_slope*x_midpoint_coordinates+y_midpoint_coordinates)))
